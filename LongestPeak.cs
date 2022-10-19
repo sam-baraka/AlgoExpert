@@ -2,11 +2,11 @@
 public class LongestPeakProgram
 {
 
-    public static void Main(string[] args)
-    {
-        int[] array = new int[] { 1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3 };
-        Console.WriteLine(LongestPeak(array));
-    }
+    // public static void Main(string[] args)
+    // {
+    //     int[] array = new int[] { 1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3 };
+    //     Console.WriteLine(LongestPeak(array));
+    // }
     public static int LongestPeak(int[] array)
     {
         /// Got this right 
