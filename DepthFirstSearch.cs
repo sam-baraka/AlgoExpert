@@ -7,7 +7,7 @@ public class DepthFirstProgram {
 	// Feel free to add new properties
 	// and methods to the class.
 
-    public static void Main(string[] args)
+    public static void DMain(string[] args)
     {
         Node node = new Node("A");
         node.children = new List<Node>();
