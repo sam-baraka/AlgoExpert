@@ -2,7 +2,7 @@ using System;
 
 public class FibonacciProgram {
 
-    static void Main(string[] args)
+    static void FMain(string[] args)
     {
         Console.WriteLine(GetNthFib(6));
     }
