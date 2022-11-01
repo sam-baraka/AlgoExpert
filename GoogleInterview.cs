@@ -1,6 +1,6 @@
 class GoogleInterviewProgram
 {
-    static void Main(string[] args)
+    static void GoogleMain(string[] args)
     {
         Console.WriteLine(Calculate());
     }
