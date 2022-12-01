@@ -5,7 +5,7 @@ using System;
 public class TournamentWinnerProgram
 {
 
-    static void Main(string[] args)
+    static void TMain(string[] args)
     {
         List<List<string>> competitions = new List<List<string>>();
         competitions.Add(new List<string>() { "HTML", "C#" });

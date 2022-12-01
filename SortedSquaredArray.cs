@@ -1,11 +1,11 @@
 class SortedSquaredArrayProgram
 {
-    static void Main(string[] args)
-    {
-        int[] array = new int[] { 1, 2, 3, 5, 6, 8, 9 };
-        int[] result = OptimizedSortedSquaredArray(array);
-        Console.WriteLine(string.Join(",", result));
-    }
+    // static void Main(string[] args)
+    // {
+    //     int[] array = new int[] { 1, 2, 3, 5, 6, 8, 9 };
+    //     int[] result = OptimizedSortedSquaredArray(array);
+    //     Console.WriteLine(string.Join(",", result));
+    // }
 
     /// Brute force solution
     /// This will run in O(n log n) time
