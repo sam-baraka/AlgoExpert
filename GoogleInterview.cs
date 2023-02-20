@@ -21,6 +21,8 @@ class GoogleInterviewProgram
 
     }
 
+
+// this is optimized by
     static int CalculateValue(Queue<String> queue)
     {
         String operation = queue.Dequeue();

@@ -3,16 +3,18 @@ import 'dart:io';
 /// Create a function that validates the correctness of a string
 void main() {
   // print(stringValidator('A5i8%'));
-  // print(fridaysIterator(dateOfFirstFriday: '2027-09-17'));
-  fileConverter();
+  print(fridaysIterator(dateOfFirstFriday: '2027-09-17'));
+  // fileConverter();
 }
 
 fridaysIterator({required String dateOfFirstFriday}) {
   var date = DateTime.parse(dateOfFirstFriday);
-  var fridays = <String>[];
-  for (var i = 0; i < 12; i++) {
-    fridays.add(date.toString().substring(0, 10));
-    date = date.add(Duration(days: 7));
+  var fridays = [];
+  while (date.year < 2030) {
+    if (date.weekday == DateTime.friday) {
+      fridays.add(date);
+    }
+    date = date.add(Duration(days: 1));
   }
   return fridays;
 }
@@ -56,6 +58,8 @@ void fileConverter() {
   // save the lines that are in the input file but not in the exclude file to the output file
   // spaces at the beginning and end of the lines should be ignored
   var output = input
-      .split('\r ').where((line) => !exclude.contains(line.trim())).join('\r ');
+      .split('\r ')
+      .where((line) => !exclude.contains(line.trim()))
+      .join('\r ');
   File(outputPath).writeAsStringSync(output);
 }
