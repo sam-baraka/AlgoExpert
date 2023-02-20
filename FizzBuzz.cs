@@ -54,7 +54,7 @@ class FizbuzzSolution
 {
     public static void FMain(string[] args)
     {
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
+        int n = Convert.ToInt32(Console.ReadLine()!.Trim());
 
         Result.fizzBuzz(n);
     }

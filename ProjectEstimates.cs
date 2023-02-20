@@ -91,19 +91,19 @@ class ProjectSolution
 {
     public static void FMain(string[] args)
     {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH")!, true);
 
-        int projectCostsCount = Convert.ToInt32(Console.ReadLine().Trim());
+        int projectCostsCount = Convert.ToInt32(Console.ReadLine()!.Trim());
 
         List<int> projectCosts = new List<int>();
 
         for (int i = 0; i < projectCostsCount; i++)
         {
-            int projectCostsItem = Convert.ToInt32(Console.ReadLine().Trim());
+            int projectCostsItem = Convert.ToInt32(Console.ReadLine()!.Trim());
             projectCosts.Add(projectCostsItem);
         }
 
-        int target = Convert.ToInt32(Console.ReadLine().Trim());
+        int target = Convert.ToInt32(Console.ReadLine()!.Trim());
 
         // int result = Result.countPairs(projectCosts, target);
 
