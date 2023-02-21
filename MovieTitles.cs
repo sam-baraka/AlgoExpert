@@ -85,7 +85,7 @@ class MovieSolution {
 
 
 
-    static void Main(String[] args) {
+    static void MMain(String[] args) {
         // string s = Console.ReadLine();
         
         // string fileName = System.Environment.GetEnvironmentVariable("OUTPUT_PATH");
