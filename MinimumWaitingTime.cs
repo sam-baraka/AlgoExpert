@@ -1,6 +1,6 @@
 
 class MinimumWaitingTimeProgram{
-    static void Main(string[] args){
+    static void MainM(string[] args){
         int[] queries = {3, 2, 1, 2, 6};
         Console.WriteLine(MinimumWaitingTime(queries));
     }
