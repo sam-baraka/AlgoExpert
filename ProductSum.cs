@@ -1,6 +1,7 @@
 class ProducrSum{
-       static void Main(string[] args){
+       static void MainP(string[] args){
         // The answer is 12
+        
         Console.WriteLine(ProductSum(new List<object> {5, 2, new List<object> {7, -1}, 3, new List<object> {6, new List<object> {-13, 8}, 4}}));
     }
 
@@ -21,25 +22,6 @@ class ProducrSum{
         }
         return sum * multiplier;
     }
-
-
-
 }
 
-/// Convert the helper function to a javascript function
 
-
-// Path: ProductSum.js
-// function productSum(array, multiplier = 1) {
-//     let sum = 0;
-//     for (const a of array) {
-//         if (Array.isArray(a)) {
-//             sum += productSum(a, multiplier + 1);
-//         } else {
-//             sum += a;
-//         }
-//     }
-//     return sum * multiplier;
-// }
-//
-// // Do not edit the line below.
