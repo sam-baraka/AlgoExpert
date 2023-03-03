@@ -4,8 +4,7 @@ class PalindromeCheck{
     static void Main(string[] args) {
         isPalindrome("abcdcba");
     }
-
-
+    
     static bool isPalindrome(String val){
         return isPalindromeRecursiveHelper(val, 0);
     }

@@ -14,10 +14,8 @@ class ProducrSum{
         foreach(object a in array){
             if(a is List<object>){
                 sum += ProductSumHelper((List<object>)a, multiplier + 1);
-
             }else if(a is int){
                 sum += (int)a;
-
             }
         }
         return sum * multiplier;
