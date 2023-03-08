@@ -13,6 +13,6 @@ public class NonConstructibleProgram {
             currentChangeCreated += coin;
         }
         return currentChangeCreated + 1;
-		
+
 	}
 }
