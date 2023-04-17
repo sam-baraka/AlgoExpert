@@ -1,7 +1,7 @@
 
 
 class PalindromeCheck{
-    static void Main(string[] args) {
+    static void MMan(string[] args) {
         isPalindrome("abcdcba");
     }
     
