@@ -2,7 +2,7 @@ class ProgramX
 {
     static readonly string[] KEYS = { "0", "1", "ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ" };
 
-    static void Main(string[] args)
+    static void Maain(string[] args)
     {
         string phoneNumber = "1905";
         List<string> results = new List<string>();
