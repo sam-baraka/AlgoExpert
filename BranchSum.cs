@@ -1,6 +1,6 @@
 public class ProgramBranchSum {
 	// This is the class of the input root. Do not edit it.
-static void Main(string[] args){
+static void BMain(string[] args){
 		BinaryTree root = new BinaryTree(1);
 		root.left = new BinaryTree(2);
 		root.right = new BinaryTree(3);
