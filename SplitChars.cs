@@ -1,5 +1,5 @@
 class SplitCharsProgram{
-    static void Main(string[] args){
+    static void MPain(string[] args){
         string s = "abc";
         var x= splitChars(s);
          foreach(var y in x){
