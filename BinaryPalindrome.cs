@@ -1,6 +1,6 @@
 class BinaryPalindromeProgram{
 
-    static void Main(string[] args){
+    static void MMain(string[] args){
         int n = 5;
         Console.WriteLine("Binary representation of {0} is {1}", n, Convert.ToString(n, 2));
         Console.WriteLine("Is {0} a binary palindrome? {1}", n, IsBinaryPalindrome(n));
